@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Star wars</title>
+  </head>
+  <body>
+    <div class="star-wars">
+      <div class="star-wars__request">
+        <h1>Выберите кого или что будем искать из фильма "Звездные войны"</h1>
+        <form class="star-wars__forms">
+          <select class="star-wars__option">
+            <option value="films">Фильмы</option>
+            <option value="people">Персонаж</option>
+            <option value="planets">Планета</option>
+            <option value="species">Тип персонажа</option>
+            <option value="starships">Звездолеты</option>
+            <option value="vehicles">Транспортное средство</option>
+          </select>
+          <input
+            class="star-wars__input-number"
+            type="number"
+            min="1"
+            max="10"
+          />
+          <button id="button">Получить</button>
+        </form>
+      </div>
+      <div class="star-wars__result"></div>
+      <div class="star-wars__error"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

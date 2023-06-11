@@ -1,0 +1,21 @@
+body {
+  background: url(../images/background.jpg) no-repeat;
+  background-size: 100%;
+  color: azure;
+}
+.star-wars {
+  padding: 20px 0 0 30px;
+}
+.star-wars__option,
+.star-wars__input-number,
+button {
+  height: 28px;
+  border: none;
+  padding: 0;
+}
+button {
+  width: 150px;
+}
+.star-wars__result {
+  margin-top: 40px;
+}
